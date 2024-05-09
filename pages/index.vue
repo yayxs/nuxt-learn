@@ -1,8 +1,5 @@
-<script setup lang="ts">
-const appConfig = useAppConfig()
-</script>
 <template>
   <div>
-    <AppTitle> {{ appConfig.title }} </AppTitle>
+    123
   </div>
 </template>
