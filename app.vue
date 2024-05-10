@@ -1,8 +1,12 @@
+
+<script setup lang="ts">
+const conf = useRuntimeConfig()
+
+</script>
 <template>
   <div>
-    <img
-      src="~/assets/img/nuxt.png"
-      alt="Discover Nuxt 3"
-    >
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
